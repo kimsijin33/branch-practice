@@ -7,3 +7,5 @@ for i in range(1,16+1): #3의 배수
         print('buzz')
     else:
         print(i)
+
+print('fizzbuzz done!')
