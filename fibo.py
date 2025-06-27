@@ -9,4 +9,5 @@ def fibonacci_recursive(n):
     else:
         return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
 
-print(fibonacci_recursive(10))
+if __name__ == '__main__':
+    print(fibonacci_recursive(10))
